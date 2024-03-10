@@ -1,0 +1,46 @@
+section{
+    margin: 0 auto;
+
+    width: 1200px;
+    
+}
+.container{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(86, 86, 206);
+    position: relative;
+}
+.menu{
+    position: absolute;
+    background-color: blueviolet; 
+    height:0;
+    top:100px;
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden;
+    transition: height 0.5s;
+}
+.nav-menu{
+    height:200px;
+}
+
+.menu ul li{
+    list-style: none;
+}
+.menu ul li a{
+    color: #fffefe;
+    text-decoration: none;
+
+ }
+
+
+ @media only screen and (max-width: 768px) {
+
+    section {
+      width: 380px;
+    }
+
+}
+
